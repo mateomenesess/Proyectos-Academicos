@@ -23,4 +23,4 @@ Un proyecto interactivo para aprender sobre geografía mientras te diviertes.
 * JavaScript (Lógica y DOM)
 
 ---
-*Hecho con dedicación en Huila, Colombia.*
+*Hecho por Mateo Meneses*
