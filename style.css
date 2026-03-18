@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+/* Fondo moderno con degradado */
+body{
+    min-height:100vh;
+    background: linear-gradient(135deg,#1a0f3c,#3e0d8b,#02cbc1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+/* Contenedor principal */
+main{
+    display:flex;
+    gap:25px;
+    padding:30px;
+}
+
+/* Sección principal */
+.section1{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.35);
+}
+
+/* Título */
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+/* Grid para los botones */
+.botones{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:12px;
+}
+
+/* Botones */
+button{
+    width:90px;
+    height:90px;
+    font-size:32px;
+    font-weight:600;
+    border:none;
+    border-radius:14px;
+    background: rgba(255,255,255,0.9);
+    color:#222;
+    transition: all 0.25s ease;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Hover de botones */
+button:hover{
+    transform: translateY(-5px) scale(1.05);
+    background:#02cbc1;
+    color:white;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* Click */
+button:active{
+    transform: scale(0.95);
+}
+
+/* Panel de estadísticas */
+.section2{
+    width:260px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border-radius:16px;
+    padding:20px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.35);
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* Tarjetas de estadísticas */
+.estadisticas{
+    border-radius:12px;
+    padding:15px;
+    background: rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.2);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:15px;
+    transition:0.3s;
+}
+
+/* Hover estadisticas */
+.estadisticas:hover{
+    background: rgba(255,255,255,0.15);
+    transform: scale(1.02);
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    margin-top:20px;
+    font-size:14px;
+    opacity:0.8;
+}
+
+/* Links */
+a{
+    color:#02cbc1;
+    text-decoration:none;
+    font-weight:500;
+}
+
+a:hover{
+    text-decoration:underline;
+}
